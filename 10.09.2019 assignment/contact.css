@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    height: 100%;
+    max-width: 1000px;
+}
+.container{
+    display: flex;
+    margin: 10px;
+    height: 200px;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: lightskyblue;
+
+}
+.image{
+    display: flex;
+    justify-content: baseline;
+    height: 10rem;
+    width: 5rem;
+    padding: 40px 0px 0px 50px;
+
+
+}
+a{
+text-decoration: none;
+color: grey;
+padding:50px 50px 50px 100px;
+text-align: center;
+}
+#contact{
+    color: black;
+}
+.main{
+    display: flex;
+    flex-flow: row;
+    background-color: rgb(191, 191, 191);
+    width: 61rem;
+    margin: 10px;
+    height: 30rem;
+    text-align: start;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+   
+  }
+  .main>h1{
+      padding-right: 100px;
+      margin-bottom: 150px;
+      text-align: center;
+
+  }
+  
+  textarea{
+    border-radius: 5px;
+
+  }
+  #mail{
+    width: 20rem;
+    margin-bottom: 10px;
+} 
+  input[type=submit] {
+    width: 30%;
+    background-color: whitesmoke;
+    color:black;
+    padding: 14px 20px;
+    margin: 8px 0 0px 140px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+.nav{
+    width: 61rem;
+    height: 20rem;
+    margin: -20px 0px 20px 10px ;
+    background-image: url(huddinge.png);
+
+}
+#visit{
+    display: inline-block;
+    margin: 50px 0 0 100px;
+    width: 15rem;
+    height: 10rem;
+    background-color: rgb(255, 166, 0);
+    color: white;
+    text-align: start;
+    padding-left: 10px;
+    line-height: 0.5;
+}
+.material-icons{
+    margin-left: 350px;
+    
+}
+.footer{
+    display: flex;
+    background-color: darkgray;
+    width: 61rem;
+    height: 15rem;
+    margin:-20px 0 0 10px;
+    
+}
